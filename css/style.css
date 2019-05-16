@@ -68,8 +68,8 @@ section {
 }
 
 .navbar-title {
-  height: 60px;
-  line-height: 60px;
+  height: 65px;
+  line-height: 65px;
   font-size: 1.3rem;
   text-align: center;
   margin: 0 0 0 60px;
@@ -94,10 +94,9 @@ section {
 .hamburger {
   top: 0;
   left: 0;
+  margin: 4px;
   width: 60px;
   height: 60px;
-  margin: 4px; 
-  cursor: pointer;
   position: absolute;
   display: inline-block;
   background: -webkit-repeating-linear-gradient(var(--black), var(--black) 8px, var(--brown) 8px, var(--brown) 16px);
@@ -140,6 +139,21 @@ section {
 #main-doc {
   width: 100%;
   background-color: #e6d69e;
+}
+
+section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfcf9), color-stop(#fcfaf3), color-stop(#faf7ee), color-stop(#f9f5e8),
+    color-stop(#f6f0dd), color-stop(#f4edd7), color-stop(#f3ebd1), color-stop(#f1e8cc), color-stop(#f0e6c6), color-stop(#efe4c1), color-stop(#ece1b8),
+    color-stop(#eaddaf), color-stop(#e8d9a6), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), to(#e6d69e));
+  background-image: -webkit-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
+    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
+    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
+  background-image: -o-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
+    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
+    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
+  background-image: linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
+    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
+    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
 }
 
 .main-section {
@@ -205,6 +219,9 @@ footer p {
   }
   .navbar-title {
     margin-left: 0;
+  }
+  section {
+    background-image: unset;
   }
   #main-doc {
     margin-left: 330px;
