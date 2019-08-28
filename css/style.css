@@ -42,10 +42,21 @@ article {
 }
 
 section {
+  background-color: #FFFAE7;
+  border-left: 4px solid var(--milk-chocolate);
+  border-right: 4px solid var(--milk-chocolate);
   border-bottom: 4px solid var(--milk-chocolate);
 }
 
-#navbar {
+section:first-child {
+  border-top: 4px solid var(--milk-chocolate);
+}
+
+section:last-child {
+  border-bottom: 0;
+}
+
+.navbar {
   width: 100%;
   height: 100%;
   position: relative;
@@ -125,12 +136,8 @@ section {
   font-size: 1.1rem;
 }
 
-#main-doc {
+.main-doc {
   width: 100%;
-  background-color: #e6d69e;
-}
-
-section {
   background-color: #FFFAE7;
 }
 
@@ -192,7 +199,7 @@ footer p {
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap;
   }
-  #navbar {
+  .navbar {
     position: fixed;
   }
   .navbar-title {
@@ -201,13 +208,13 @@ footer p {
   section {
     background-image: unset;
   }
-  #main-doc {
+  .main-doc {
     margin-left: 330px;
   }
   .main-section {
-    max-width: 1000px;
+    max-width: 1250px;
   }
-  #navbar {
+  .navbar {
     max-width: 330px;
   }
   .hidden {
@@ -217,9 +224,9 @@ footer p {
     display: none;
   }
   code {
-    overflow: unset;
+    overflow: auto;
   }
-  footer p {
+  .footer-text {
     text-align: center;
   }
 }
