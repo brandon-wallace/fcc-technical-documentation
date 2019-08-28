@@ -18,8 +18,8 @@ body {
 
 body {
   margin: 0;
+  font-family: sans-serif;
   background-color: var(--milk-chocolate);
-  font-family: 'Encode Sans', sans-serif;
 }
 
 a {
@@ -148,6 +148,11 @@ section:last-child {
           box-sizing: border-box;
 }
 
+.main-title {
+  font-size: 1.5rem;
+  font-family: 'EB Garamond', serif;
+}
+
 .list-item {
   padding: .5rem 0;
 }
@@ -160,7 +165,7 @@ code {
   text-align: left;
   white-space: pre;
   font-weight: bold;
-  overflow: scroll;
+  overflow-x: scroll;
   word-wrap: normal;
   position: relative;
   word-break: normal;
@@ -175,7 +180,7 @@ footer {
   height: 80px;
 }
 
-footer p {
+.footer-text {
   line-height: 80px;
   text-align: right;
   margin-right: 2rem;
