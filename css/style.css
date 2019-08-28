@@ -180,7 +180,8 @@ code {
   word-wrap: normal;
   position: relative;
   word-break: normal;
-  background-color: var(--tan);
+  color: var(--tan);
+  background-color: var(--dark-chocolate);
   border-left: 4px solid hsl(21, 56%, 27%);
 }
 
