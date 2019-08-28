@@ -165,6 +165,7 @@ code {
   position: relative;
   word-break: normal;
   color: var(--tan);
+  font-family: 'Fira Code', monospace;
   background-color: var(--dark-chocolate);
   border-left: 6px solid hsl(21, 56%, 27%);
 }
@@ -224,7 +225,7 @@ footer p {
     display: none;
   }
   code {
-    overflow: auto;
+    overflow-x: auto;
   }
   .footer-text {
     text-align: center;
