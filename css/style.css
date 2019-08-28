@@ -1,6 +1,6 @@
 :root {
   --tan: #FDFCF9;
-  --brown: #E6D69E;
+  --brown: #fff1bf;
   --black: #000000;
   --milk-chocolate: #423629;
   --white: hsl(0, 100%, 100%);
@@ -49,18 +49,7 @@ section {
   width: 100%;
   height: 100%;
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfcf9), color-stop(#fcfaf3), color-stop(#faf7ee), color-stop(#f9f5e8),
-    color-stop(#f6f0dd), color-stop(#f4edd7), color-stop(#f3ebd1), color-stop(#f1e8cc), color-stop(#f0e6c6), color-stop(#efe4c1), color-stop(#ece1b8),
-    color-stop(#eaddaf), color-stop(#e8d9a6), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), to(#e6d69e));
-  background-image: -webkit-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
-  background-image: -o-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
-  background-image: linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
+  background-color: #fff1bf;
 }
 
 .navbar-header {
@@ -95,13 +84,13 @@ section {
   top: 0;
   left: 0;
   margin: 4px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   display: inline-block;
-  background: -webkit-repeating-linear-gradient(var(--black), var(--black) 8px, var(--brown) 8px, var(--brown) 16px);
-  background: -o-repeating-linear-gradient(var(--black), var(--black) 8px, var(--brown) 8px, var(--brown) 16px);
-  background: repeating-linear-gradient(var(--black), var(--black) 8px, var(--brown) 8px, var(--brown) 16px);
+  background: -webkit-repeating-linear-gradient(var(--black), var(--black) 10px, var(--brown) 10px, var(--brown) 20px);
+  background: -o-repeating-linear-gradient(var(--black), var(--black) 10px, var(--brown) 10px, var(--brown) 20px);
+  background: repeating-linear-gradient(var(--black), var(--black) 10px, var(--brown) 10px, var(--brown) 20px);
 }
 
 .hidden {
@@ -142,18 +131,7 @@ section {
 }
 
 section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfcf9), color-stop(#fcfaf3), color-stop(#faf7ee), color-stop(#f9f5e8),
-    color-stop(#f6f0dd), color-stop(#f4edd7), color-stop(#f3ebd1), color-stop(#f1e8cc), color-stop(#f0e6c6), color-stop(#efe4c1), color-stop(#ece1b8),
-    color-stop(#eaddaf), color-stop(#e8d9a6), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), color-stop(#e6d69e), to(#e6d69e));
-  background-image: -webkit-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
-  background-image: -o-linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
-  background-image: linear-gradient(#fdfcf9, #fcfaf3, #faf7ee, #f9f5e8,
-    #f6f0dd, #f4edd7, #f3ebd1, #f1e8cc, #f0e6c6, #efe4c1, #ece1b8,
-    #eaddaf, #e8d9a6, #e6d69e, #e6d69e, #e6d69e, #e6d69e, #e6d69e);
+  background-color: #FFFAE7;
 }
 
 .main-section {
@@ -168,11 +146,10 @@ section {
 }
 
 code {
-  margin: 10px;
   padding: 15px;
   line-height: 2;
   display: block;
-  font-size: .9rem;
+  font-size: 1rem;
   text-align: left;
   white-space: pre;
   font-weight: bold;
@@ -182,7 +159,7 @@ code {
   word-break: normal;
   color: var(--tan);
   background-color: var(--dark-chocolate);
-  border-left: 4px solid hsl(21, 56%, 27%);
+  border-left: 6px solid hsl(21, 56%, 27%);
 }
 
 footer {
