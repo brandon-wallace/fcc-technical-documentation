@@ -125,6 +125,7 @@ section:last-child {
 .nav-link {
   padding: .5em;
   color: var(--dark-chocolate);
+  transition: all 300ms linear;
 }
 
 .nav-link:hover {
